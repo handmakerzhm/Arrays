@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #444;
+    overflow: hidden;
+}
+
+.stripe {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+}
+
+.stripe h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:lightblue;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 200px;
+    padding: 30px 50px;
+    font-size: 7rem;
+}
+
+hr {
+    width: 100%;
+    height: 50px;
+    border: 5px solid white;
+    border-style:  none;
+    background-color: lightblue;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-style: oblique;
+    font-size: 3rem;
+    color:#777;
+    margin-left: 40px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-style: unset;
+    color: white;
+    margin-left: 70px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+.icons  {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 80px 20px;
+    padding: 20px;
+}
+
+.fab {
+    margin: 5px;
+    color: lightblue;
+    font-size: 2rem;
+}
+
+.output {
+    text-align: center;
+    padding: 50px 0 0 ;
+}
+
+#data {
+    color: blanchedalmond;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-style: oblique;
+}
+
+
