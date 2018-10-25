@@ -80,21 +80,22 @@
 // document.getElementById('data').innerHTML = (`My favorite parts of webDevelopment is ${webDevelopment[2]} and ${webDevelopment[3]}`);
 
 
-//Example: 5
+// Example: 5
 
 // You can use method properties to change elements inside the array.
 
 let jobs = ['freelancer','entrepreneur','problem solver','illustrator'];
 
-//jobs.pop('illustrator');
-//jobs.push('author');
-//jobs.sort();
-//jobs.shift();
-jobs.unshift();
+// jobs.pop('illustrator');
+// jobs.push('author');
+// jobs.sort();
+//  jobs.reverse();
+// jobs.shift();
+// jobs.unshift();
 
 console.log(jobs);
-//array method
-//console.log(jobs.length);
+// array method
+// console.log(jobs.length);
 
 
 
