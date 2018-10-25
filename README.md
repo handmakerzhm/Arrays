@@ -1,4 +1,4 @@
-# Array
+# Arrays
 Basic Array reference
 
 More content will be added. 
