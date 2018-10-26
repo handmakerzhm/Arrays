@@ -1,4 +1,4 @@
-// alert('This is Javascript {;-)');
+alert('This is Javascript {;-)');
 
 //Data types
 
@@ -82,20 +82,47 @@
 
 // Example: 5
 
-// You can use method properties to change elements inside the array.
+/* You can use methods to change elements inside the array.
+There are more methods, these are some that suite my needs*/
 
-let jobs = ['freelancer','entrepreneur','problem solver','illustrator'];
 
 // jobs.pop('illustrator');
 // jobs.push('author');
 // jobs.sort();
-//  jobs.reverse();
+// jobs.reverse();
 // jobs.shift();
 // jobs.unshift();
 
-console.log(jobs);
+/*With the splice method you can delete elements and add values inside the deleted array.  Note: To understand the splice method, practice to see how the deletion and insertions work with the array. (start,end)*/
+
+// jobs.splice(0,1);//items deleted: entrepreneur,problem solver,illustrator
+// jobs.splice(0,2);//items deleted: problem solver, illustrator
+// jobs.splice(0,3) // item deleted: illustrator
+// jobs.splice(0,4)// does not delete any item
+// jobs.splice(1,0)// does not delete any item
+// jobs.splice(1,1)// items deleted freelancer,problem solver,illustrator
+//jobs.slice(0,3);// works similarly as splice does.
+// jobs.concat(['gatekeeper','web developer']);// adds to an array
 // array method
 // console.log(jobs.length);
+
+//Practice array with multiple methods
+
+
+// let jobs = [' freelancer',' entrepreneur',' problem solver',' illustrator'];
+// let newJob = jobs.concat([' gatekeeper',' web developer']);
+
+// document.getElementById('data').innerHTML = newJob.concat([' gatekeeper',' web developer']);
+
+// console.log(newJob);
+
+// let jobs = [' freelancer',' entrepreneur',' problem solver',' illustrator'];
+// let newJob = jobs.concat([' gatekeeper',' web developer']);
+// document.getElementById('data').innerHTML = newJob.sort();
+// document.getElementById('data').innerHTML = newJob.reverse();
+// document.getElementById('data').innerHTML = (newJob.length);// Optional to check the length.
+// console.log(newJob);
+
 
 
 

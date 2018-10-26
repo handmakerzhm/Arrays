@@ -125,11 +125,13 @@ You can use method properties to change elements inside the array.
 
 let jobs = ['freelancer','entrepreneur','problem solver','illustrator'];
 
-jobs.pop('illustrator');
-jobs.push('author');
-jobs.sort();
-jobs.shift();
-jobs.unshift();
+//Array methods
+//jobs.pop('illustrator');
+//jobs.push('author');
+//jobs.sort();
+//jobs.reverse();
+//jobs.shift();
+//jobs.unshift();
 
 console.log(jobs);
 
