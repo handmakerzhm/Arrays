@@ -1,4 +1,4 @@
-alert('This is Javascript {;-)');
+// alert('This is Javascript {;-)');
 
 //Data types
 
@@ -105,6 +105,45 @@ There are more methods, these are some that suite my needs*/
 // jobs.concat(['gatekeeper','web developer']);// adds to an array
 // array method
 // console.log(jobs.length);
+/*toString separates the strings into commas and space */
+
+// console.log(jobs.toString());
+/*join combined the array with add data.
+Note it's space sensitive */
+// console.log(jobs.join(' wane '));
+
+/*Combining arrays with concat. Create a new array by combining the old array with the new array. Syntax:
+ jobs.concat(); */
+
+// let jobs = [' freelancer',' entrepreneur',' problem solver',' illustrator'];
+
+// let skills = ['sewing','adobe photoshop','adobe illustrator'];
+
+// let combined = jobs.concat(skills);
+
+// console.log(combined);
+
+//Combining multiple arrays
+// let jobs = [' Freelancer',' entrepreneur',' problem solver',' illustrator'];
+
+// let skills = [' sewing ',' adobe photoshop ',' adobe illustrator '];
+
+// let interests = [' languages ',' music ',' exercising '];
+
+// let combined = jobs.concat(skills,interests);
+
+// document.getElementById('data').innerHTML = (`A brief description. ${combined}`);
+
+// console.log(combined);
+
+//Combining an array with values
+
+// let skills = ['sewing','adobe photoshop','adobe illustrator'];
+
+// let interests = skills.concat(['languages','music','exercising']);
+
+// document.getElementById('data').innerHTML = interests;
+
 
 //Practice array with multiple methods
 
@@ -122,6 +161,8 @@ There are more methods, these are some that suite my needs*/
 // document.getElementById('data').innerHTML = newJob.reverse();
 // document.getElementById('data').innerHTML = (newJob.length);// Optional to check the length.
 // console.log(newJob);
+
+
 
 
 
