@@ -166,6 +166,52 @@ Note it's space sensitive */
 
 
 
+//Array iterations
+
+// let myData = [35,46,17,8,49,88,73];
+// let mySet = new Set(myData);
+
+//Add string
+// mySet.add("opossum");
+//Add numbers in a new array
+// mySet.add([25,35,45,55]);
+// multiple key values in one object
+// mySet.add({animal:"opossum",name:"A-possum",age:3});
+// mySet.add({animal_2:"skunk",name:"smelly","Likes berries": true});
+// mySet.add("opossum");
+//delete value
+// mySet.delete(73);
+//Clear the array
+// mySet.clear();
+// mySet.add(73+35);
+// mySet.add(33);
+
+// console.log();
+
+/*loop through values: old version of loop*/
+// mySet.forEach(function(value){
+    
+//     console.log(value);
+// });
+
+//Map method
+// let myMap = new Map ([['more content','and a string'],['more values','some more values']]);
+
+// console.log(myMap);
+
+//add to map method by adding data value
+// let myMap = new Map ([['more content','and a string'],['more values','some more values']]);
+// myMap.set('added string','more added strings');
+// console.log(myMap);
+
+//delete method that deletes by the KEY:
+// let myMap = new Map ([['a1','more content','and a string'],['b2','more values','some more values']]);
+// myMap.delete('a1');
+// // myMap.delete('b2');
+// console.log(myMap); //insert dot size behind myMap to see the map size
+
+
+
 
 
 
