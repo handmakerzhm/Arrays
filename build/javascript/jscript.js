@@ -210,7 +210,17 @@ Note it's space sensitive */
 // // myMap.delete('b2');
 // console.log(myMap); //insert dot size behind myMap to see the map size
 
+// let animalWeakSet = new WeakSet();
 
+// let animal1 = {
+//     type: 'mammal',
+//     species: 'Skunk',
+//     name: 'smelly',
+//     weight: '35lbs'
+// }
+
+// animalWeakSet.add(animal1);
+// console.log(animalWeakSet);
 
 
 
