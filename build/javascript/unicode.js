@@ -21,6 +21,6 @@
 // console.log(unicodeCharacter,(u));
 // console.log(unicodeCharacter,(c));
 
-// document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a).sort(),
+
 
  
