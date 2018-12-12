@@ -12,6 +12,10 @@ let D = String.fromCharCode(0x0110);
 let r = String.fromCharCode(0x0159);
 let e = String.fromCharCode(0x011B);
 let n = String.fromCharCode(0x00F1);
+let invertedQuestionMark = String.fromCharCode(0x00BF);
+let copyrightSymbol = String.fromCharCode(0x00A9);
+let registerSymbol = String.fromCharCode(0x00AE);
+
 
 
 
@@ -21,6 +25,7 @@ document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a,C,d,
 });
 
 console.log(unicodeCharacter.concat(u,c,a,C,d,D,r,e,s,n));
+console.log(copyrightSymbol,registerSymbol,invertedQuestionMark);
 // console.log(unicodeCharacter.concat(u,c,a).sort());
 
 
