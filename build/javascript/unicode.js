@@ -27,6 +27,7 @@ let registerSymbol = String.fromCharCode(0x00AE);
 
 
 
+
 unicodeCharacter.forEach(function(){
 document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a,aa,aa2,ee,eee,eeee,eeeee,C,d,D,r,e,s,n,o).sort();
     
