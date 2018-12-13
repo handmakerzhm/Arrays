@@ -8,7 +8,9 @@ HTML and CSS background for project references. No one without the other.
 
 # Update 
 
-Experimenting with the unicode characters. 
+Experimenting with the unicode characters.
+
+Adding more unicode for references plus a media media query for font sizing when the screen goes below a certain width.
 
 ---
 
