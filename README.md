@@ -10,7 +10,11 @@ HTML and CSS background for project references. No one without the other.
 
 Experimenting with the unicode characters.
 
-Adding more unicode for references plus a media media query for font sizing when the screen goes below a certain width.
+U2: Adding more unicode for references plus a media media query for font sizing when the screen goes below a certain width.
+
+U3: Making notes of some unicode characters. This file will need to be changed for clarity and organization. :note;-) 'task attention'.
+
+
 
 ---
 
