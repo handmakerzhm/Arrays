@@ -82,3 +82,11 @@ h3 {
 }
 
 
+@media screen and (max-width: 840px) {
+    #output {
+        font-size:2rem;
+        font-family: sans-serif;
+        font-style: oblique;
+        
+    }
+  }

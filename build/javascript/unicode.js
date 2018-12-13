@@ -16,6 +16,9 @@ let r = String.fromCharCode(0x0159);
 let o = String.fromCharCode(0x1ECF);
 let e = String.fromCharCode(0x011B);
 let ee = String.fromCharCode(0x1EC7);
+let eee = String.fromCharCode(0x1EBD);
+let eeee = String.fromCharCode(0x1EBB);
+let eeeee = String.fromCharCode(0x1EB9);
 let n = String.fromCharCode(0x00F1);
 let invertedQuestionMark = String.fromCharCode(0x00BF);
 let copyrightSymbol = String.fromCharCode(0x00A9);
@@ -25,11 +28,11 @@ let registerSymbol = String.fromCharCode(0x00AE);
 
 
 unicodeCharacter.forEach(function(){
-document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a,aa,aa2,ee,C,d,D,r,e,s,n,o).sort();
+document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a,aa,aa2,ee,eee,eeee,eeeee,C,d,D,r,e,s,n,o).sort();
     
 });
 
-console.log(unicodeCharacter.concat(u,c,a,C,d,D,r,e,s,n,aa,aa2,ee,uu,o));
+console.log(unicodeCharacter.concat(u,c,a,C,d,D,r,e,s,n,aa,aa2,ee,uu,o,eee,eeee));
 console.log(copyrightSymbol,registerSymbol,invertedQuestionMark);
 // console.log(unicodeCharacter.concat(u,c,a).sort());
 
