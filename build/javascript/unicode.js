@@ -29,18 +29,16 @@ let registerSymbol = String.fromCharCode(0x00AE);
 
 
 unicodeCharacter.forEach(function(){
-document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a,aa,aa2,ee,eee,eeee,eeeee,C,d,D,r,e,s,n,o).sort();
+document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a,C,d,D).sort();
     
 });
 
-console.log(unicodeCharacter.concat(u,c,a,C,d,D,r,e,s,n,aa,aa2,ee,uu,o,eee,eeee));
-console.log(copyrightSymbol,registerSymbol,invertedQuestionMark);
+console.log(unicodeCharacter.concat(u,c,a,C,d,D));
+
 // console.log(unicodeCharacter.concat(u,c,a).sort());
 
 
 // console.log(unicodeCharacter.concat(u));
-// console.log(unicodeCharacter.concat(c));
-// console.log(unicodeCharacter.concat(a));
 // console.log(unicodeCharacter.join(u));
 // console.log(u);
 // console.log(unicodeCharacter,(u));
