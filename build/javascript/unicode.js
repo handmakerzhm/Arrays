@@ -20,29 +20,24 @@ let eee = String.fromCharCode(0x1EBD);
 let eeee = String.fromCharCode(0x1EBB);
 let eeeee = String.fromCharCode(0x1EB9);
 let n = String.fromCharCode(0x00F1);
-let invertedQuestionMark = String.fromCharCode(0x00BF);
-let copyrightSymbol = String.fromCharCode(0x00A9);
-let registerSymbol = String.fromCharCode(0x00AE);
 
-
-
-
-
+//-------------------------------------------------
 unicodeCharacter.forEach(function(){
 document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a,C,d,D).sort();
     
 });
-
-console.log(unicodeCharacter.concat(u,c,a,C,d,D));
-
-// console.log(unicodeCharacter.concat(u,c,a).sort());
+//--------------------------------------------------------
 
 
-// console.log(unicodeCharacter.concat(u));
-// console.log(unicodeCharacter.join(u));
 // console.log(u);
+// console.log(U);
 // console.log(unicodeCharacter,(u));
 // console.log(unicodeCharacter,(c));
+// console.log(unicodeCharacter.concat(u,c,a).sort());
+// console.log(unicodeCharacter.concat(u));
+// console.log(unicodeCharacter.join(u));
+// console.log(unicodeCharacter.concat(u,c,a,C,d,D));
+
 
 
 
