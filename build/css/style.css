@@ -87,6 +87,15 @@ p {
         font-size:2rem;
         font-family: sans-serif;
         font-style: oblique;
-        
+    }
+
+    .stripe h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        color:lightblue;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        padding: 30px 50px;
+        font-size: 5rem;
     }
   }
