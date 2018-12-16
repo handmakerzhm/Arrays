@@ -9,7 +9,7 @@ let D = String.fromCharCode(0x0110);
 
 
 //-------------------------------------------------
-//test loop for special characters: forEach loop,plus sort
+/*test loop for special characters: forEach loop,plus sort*/
 
 // unicodeCharacter.forEach(function(){
 // document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a,C,d,D).sort();
@@ -17,7 +17,7 @@ let D = String.fromCharCode(0x0110);
 // });
 
 //--------------------------------------------
-//test loop2 for special characters: forof loop,plus sort
+/*test loop2 for special characters: forof loop, plus sort.*/
 
 // for(let l of unicodeCharacter){
 //     document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a,C,d,D).sort();
@@ -25,11 +25,21 @@ let D = String.fromCharCode(0x0110);
 
 // console.log(unicodeCharacter.concat(u,c,a,C,d,D).sort());
 
-for(let l of unicodeCharacter){
-    document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a,C,d,D).reverse();
-}
+//------------------------------------------------
+/*test loop2-2 for special characters: forof loop, plus reverse*/
+// for(let l of unicodeCharacter){
+//     document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a,C,d,D).reverse();
+// }
 
-console.log(unicodeCharacter.concat(u,c,a,C,d,D).reverse());
+// console.log(unicodeCharacter.concat(u,c,a,C,d,D).reverse());
+
+//-----------------------------------------------
+//test function with special characters
+let sorter = function(){
+   let sortOutput= document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a,C,d,D).sort();
+    console.log(sortOutput.sort());
+}
+sorter();
 
 
 
