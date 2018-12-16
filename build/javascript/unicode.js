@@ -35,19 +35,15 @@ let D = String.fromCharCode(0x0110);
 
 //-----------------------------------------------
 //test function with special characters
-let sorter = function(){
-   let sortOutput= document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a,C,d,D).sort();
-    console.log(sortOutput.sort());
-}
-sorter();
 
-
-
-// unicodeCharacter.map(function(){
-// document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a,C,d,D).sort();
-// });
+// let sorter = function(){
+//    let sortOutput= document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a,C,d,D).sort();
+//     console.log(sortOutput.sort());
+// }
+// sorter();
 
 //--------------------------------------------------------
+//Different log options
 // console.log(u);
 // console.log(U);
 // console.log(unicodeCharacter,(u));
