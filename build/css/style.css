@@ -74,13 +74,7 @@ h3 {
     font-style: oblique;
 }
 
-p {
-    color:whitesmoke;
-    font-size: 3.5rem;
-    font-style: oblique;
-
-}
-
+/*style change for window size*/
 
 @media screen and (max-width: 840px) {
     #output {
