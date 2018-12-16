@@ -20,11 +20,15 @@ let D = String.fromCharCode(0x0110);
 //     document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a,C,d,D).sort();
 // }
 
+// console.log(unicodeCharacter.concat(u,c,a,C,d,D).sort());
+
 for(let l in unicodeCharacter){
     document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a,C,d,D).reverse();
 }
 
-console.log(unicodeCharacter.concat(u,c,a,C,d,D).sort());
+console.log(unicodeCharacter.concat(u,c,a,C,d,D).reverse());
+
+
 
 // unicodeCharacter.map(function(){
 // document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a,C,d,D).sort();
