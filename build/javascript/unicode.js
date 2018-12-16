@@ -9,20 +9,23 @@ let D = String.fromCharCode(0x0110);
 
 
 //-------------------------------------------------
-//test loop for special characters
+//test loop for special characters: forEach loop,plus sort
 
 // unicodeCharacter.forEach(function(){
 // document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a,C,d,D).sort();
     
 // });
 
-// for(let l in unicodeCharacter){
+//--------------------------------------------
+//test loop2 for special characters: forof loop,plus sort
+
+// for(let l of unicodeCharacter){
 //     document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a,C,d,D).sort();
 // }
 
 // console.log(unicodeCharacter.concat(u,c,a,C,d,D).sort());
 
-for(let l in unicodeCharacter){
+for(let l of unicodeCharacter){
     document.getElementById('output').innerHTML = unicodeCharacter.concat(u,c,a,C,d,D).reverse();
 }
 
